@@ -1,0 +1,40 @@
+.overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Fond grisé */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000; /* Doit être au-dessus de Leaflet (1000) */
+}
+
+.modal {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    min-width: 320px;
+    text-align: center;
+}
+
+.closeButton {
+    margin-top: 1.5rem;
+    padding: 8px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.infoLine {
+    margin: 8px 0;
+    color: #34495e;
+}
+
+.label {
+    font-weight: 600; /* On gère le gras ici, uniquement pour le visuel */
+    color: #2c3e50;
+    margin-right: 5px;
+}

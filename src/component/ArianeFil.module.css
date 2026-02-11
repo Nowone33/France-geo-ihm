@@ -1,0 +1,32 @@
+
+.container {
+    padding: 10px; 
+    background: #34495e; 
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.homeButton {
+    background: none;
+    border: 1px solid white;
+    color: white; 
+    cursor: pointer; 
+    border-radius: 4px;
+}
+
+.separator {
+    color: #bdc3c7;
+}
+
+.link {
+    cursor: pointer; 
+    color: #bdc3c7;
+}
+
+.currentLevel {
+    font-weight: bold;
+    color: #f1c40f;
+}
